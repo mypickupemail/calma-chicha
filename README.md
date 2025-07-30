@@ -1,14 +1,14 @@
 # Restaurant-3 Gericht - Modern React.js Frontend Restaurant Website (Design 3)
 
-<img width="1362" height="807" alt="Screenshot 2025-07-30 at 15 57 02" src="https://github.com/user-attachments/assets/d9f0ec6f-ccb7-4505-a470-665ab157b6bb" />
-<img width="1384" height="884" alt="Screenshot 2025-07-30 at 15 57 22" src="https://github.com/user-attachments/assets/fc1e2406-61f2-4716-aadf-2c7ff040fd59" />
-<img width="1336" height="873" alt="Screenshot 2025-07-30 at 15 57 37" src="https://github.com/user-attachments/assets/3b3552bd-52ef-452a-b9e1-5cc890ccdac1" />
-<img width="1292" height="773" alt="Screenshot 2025-07-30 at 15 57 50" src="https://github.com/user-attachments/assets/896d2550-d3d6-4ceb-9620-7fc655269c79" />
-<img width="1420" height="878" alt="Screenshot 2025-07-30 at 15 58 06" src="https://github.com/user-attachments/assets/67b95060-db2a-4261-8bb5-2e18dd4915bc" />
-<img width="1366" height="768" alt="Screenshot 2025-07-30 at 15 58 17" src="https://github.com/user-attachments/assets/46e2ddcd-05eb-481d-bfba-db95cc6e2e54" />
-<img width="1369" height="687" alt="Screenshot 2025-07-30 at 15 58 28" src="https://github.com/user-attachments/assets/44b5986c-0f12-4af8-a181-1cc43b89a157" />
-<img width="1272" height="708" alt="Screenshot 2025-07-30 at 15 58 37" src="https://github.com/user-attachments/assets/b02f5d0e-7ed1-48e0-9398-5b01a03aaa19" />
-<img width="1193" height="762" alt="Screenshot 2025-07-30 at 15 58 50" src="https://github.com/user-attachments/assets/286236b9-5cc7-4a3a-85a1-d885bb2666fb" />
+![Screenshot 2025-07-30 at 15 57 02](https://github.com/user-attachments/assets/d9f0ec6f-ccb7-4505-a470-665ab157b6bb)
+![Screenshot 2025-07-30 at 15 57 22](https://github.com/user-attachments/assets/fc1e2406-61f2-4716-aadf-2c7ff040fd59)
+![Screenshot 2025-07-30 at 15 57 37](https://github.com/user-attachments/assets/3b3552bd-52ef-452a-b9e1-5cc890ccdac1)
+![Screenshot 2025-07-30 at 15 57 50](https://github.com/user-attachments/assets/896d2550-d3d6-4ceb-9620-7fc655269c79)
+![Screenshot 2025-07-30 at 15 58 06](https://github.com/user-attachments/assets/67b95060-db2a-4261-8bb5-2e18dd4915bc)
+![Screenshot 2025-07-30 at 15 58 17](https://github.com/user-attachments/assets/46e2ddcd-05eb-481d-bfba-db95cc6e2e54)
+![Screenshot 2025-07-30 at 15 58 28](https://github.com/user-attachments/assets/44b5986c-0f12-4af8-a181-1cc43b89a157)
+![Screenshot 2025-07-30 at 15 58 37](https://github.com/user-attachments/assets/b02f5d0e-7ed1-48e0-9398-5b01a03aaa19)
+![Screenshot 2025-07-30 at 15 58 50](https://github.com/user-attachments/assets/286236b9-5cc7-4a3a-85a1-d885bb2666fb)
 
 ---
 
