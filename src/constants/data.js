@@ -1,82 +1,82 @@
 import images from './images';
 
-const wines = [
+const mainDishes = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Pescado Fresco del Mar',
+    price: '$8.200',
+    tags: 'Claromeco | Grillado | Con limón',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Paella de Mariscos',
+    price: '$9.800',
+    tags: 'Para 2 personas | Mejillones y langostinos',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Empanadas de Atún',
+    price: '$1.400',
+    tags: 'Especialidad costera | Caseras',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Asado de Tira',
+    price: '$8.500',
+    tags: 'Parrilla | Con guarnición',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Cazuela de Mariscos',
+    price: '$9.200',
+    tags: 'Mejillones | Almejas | Langostinos',
   },
 ];
 
-const cocktails = [
+const drinks = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Fernet con Cola',
+    price: '$2.800',
+    tags: 'Fernet Branca | Coca Cola | Hielo',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Vino Malbec',
+    price: '$3.200',
+    tags: 'Copa | Mendoza | Reserva',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Cerveza Artesanal',
+    price: '$2.100',
+    tags: 'IPA | Lager | Rubia',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Gin Tonic',
+    price: '$3.500',
+    tags: 'Gin nacional | Tónica | Lima',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Licuado de Frutas',
+    price: '$1.800',
+    tags: 'Banana | Frutilla | Durazno',
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Chef Galardonada',
+    subtitle: 'Reconocimiento por excelencia culinaria en competencias nacionales.',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Evento Gastronómico',
+    subtitle: 'Participación destacada en festivales gastronómicos de prestigio.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Tradición Familiar',
+    subtitle: 'Preservando recetas tradicionales con técnicas innovadoras.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Nuevo Talento',
+    subtitle: 'Reconocimiento como chef emergente en la región costera.',
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines: mainDishes, cocktails: drinks, awards };

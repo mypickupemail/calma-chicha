@@ -3,13 +3,16 @@
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
-  
-  --color-golden: #DCCA87;
+
+  --color-golden: #E8B86D;
   --color-black: #0C0C0C;
   --color-gray: #545454;
-  --color-crimson: #F5EFDB;
+  --color-crimson: #87CEEB;
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
+  --color-ocean: #4682B4;
+  --color-sand: #F4E4BC;
+  --color-seafoam: #98E4D6;
 }
 
 * {

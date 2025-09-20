@@ -11,10 +11,10 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cormorant">Nosotros</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
-        <button type="button" className="custom__button">Know More</button>
+        <p className="p__opensans">En Calma Chicha creemos que la comida es el lenguaje universal del amor. Cada plato que preparamos nace de recetas familiares transmitidas de generación en generación, combinadas con técnicas culinarias de vanguardia.</p>
+        <button type="button" className="custom__button">Conocé Más</button>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -22,10 +22,10 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
+        <h1 className="headtext__cormorant">Nuestra Historia</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
-        <button type="button" className="custom__button">Know More</button>
+        <p className="p__opensans">Nacimos en el corazón de Claromeco con la visión de crear un espacio donde la gastronomía se encuentre con la calidez humana. Somos un nuevo sueño que cobra vida, construido sobre la pasión por la cocina y el deseo de compartir momentos únicos.</p>
+        <button type="button" className="custom__button">Conocé Más</button>
       </div>
     </div>
   </div>

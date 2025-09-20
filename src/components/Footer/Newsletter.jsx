@@ -7,12 +7,12 @@ const Newsletter = () => (
   <div className="app__newsletter">
     <div className="app__newsletter-heading">
       <SubHeading title="Newsletter" />
-      <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
-      <p className="p__opensans">And never miss latest Updates!</p>
+      <h1 className="headtext__cormorant">Suscribite a Nuestras Novedades</h1>
+      <p className="p__opensans">¡No te pierdas nuestras últimas noticias y ofertas especiales!</p>
     </div>
     <div className="app__newsletter-input flex__center">
-      <input type="email" placeholder="Enter your email address" />
-      <button type="button" className="custom__button">Subscribe</button>
+      <input type="email" placeholder="Ingresá tu email" />
+      <button type="button" className="custom__button">Suscribirse</button>
     </div>
   </div>
 );

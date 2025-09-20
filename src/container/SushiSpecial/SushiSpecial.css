@@ -1,0 +1,118 @@
+.app__sushi-special {
+  background: linear-gradient(135deg, var(--color-ocean) 0%, var(--color-seafoam) 100%);
+  color: var(--color-white);
+  flex-direction: row;
+  padding: 4rem 6rem;
+}
+
+.app__sushi-special-content {
+  flex: 1.5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app__sushi-special-image {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.app__sushi-special-image img {
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.app__sushi-special-info {
+  margin-top: 2rem;
+}
+
+.app__sushi-special-info .p__opensans {
+  margin-bottom: 2rem;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.app__sushi-special-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.app__sushi-special-feature {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.app__sushi-special-feature h3 {
+  margin-bottom: 0.8rem;
+  color: var(--color-sand);
+  font-size: 18px;
+}
+
+.app__sushi-special-feature .p__opensans {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.app__sushi-special-schedule {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.app__sushi-special-schedule .p__opensans {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__sushi-special {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .app__sushi-special-image {
+    margin: 3rem 0 0 0;
+  }
+
+  .app__sushi-special-features {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app__sushi-special {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__sushi-special {
+    padding: 4rem 2rem;
+  }
+
+  .app__sushi-special-info .p__opensans {
+    font-size: 16px;
+  }
+
+  .app__sushi-special-feature h3 {
+    font-size: 16px;
+  }
+
+  .app__sushi-special-feature .p__opensans {
+    font-size: 13px;
+  }
+}
