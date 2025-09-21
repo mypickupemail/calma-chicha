@@ -1,5 +1,5 @@
 import React from 'react';
-import { SubHeading } from '../../components';
+import { SubHeading, GlassCard } from '../../components';
 import { images } from '../../constants';
 import './SushiSpecial.css';
 
@@ -47,7 +47,9 @@ const SushiSpecial = () => (
     </div>
 
     <div className="app__sushi-special-image">
-      <img src={images.chef} alt="calma_sushi" />
+      <GlassCard intensity={15}>
+        <img src={images.chef} alt="calma_sushi" />
+      </GlassCard>
     </div>
   </div>
 );

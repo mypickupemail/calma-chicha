@@ -9,11 +9,12 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .app__wrapper {
@@ -52,24 +53,41 @@
   width: 80%;
 }
 
+.app__section {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  margin: 3rem 2rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  overflow: hidden;
+}
+
 .custom__button {
-  background-color: var(--color-crimson);
-    color: var(--color-black);
+  background: linear-gradient(45deg, var(--color-crimson), var(--color-ocean));
+    color: var(--color-white);
     font-family: var(--font-base);
     font-weight: 700;
     letter-spacing: 0.04em;
     line-height: 28px;
     font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
     border: none;
     outline: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
 .p__cormorant {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: var(--color-text-primary);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -80,7 +98,7 @@
 
 .p__opensans {
   font-family: var(--font-alt);
-  color: var(--color-white);
+  color: var(--color-text-secondary);
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;

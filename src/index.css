@@ -4,15 +4,19 @@
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
 
-  --color-golden: #E8B86D;
-  --color-black: #0C0C0C;
-  --color-gray: #545454;
-  --color-crimson: #87CEEB;
-  --color-grey: #AAAAAA;
+  --color-golden: #0f766e;
+  --color-black: #374151;
+  --color-gray: #6b7280;
+  --color-crimson: #0ea5e9;
+  --color-grey: #9ca3af;
   --color-white: #FFFFFF;
-  --color-ocean: #4682B4;
-  --color-sand: #F4E4BC;
-  --color-seafoam: #98E4D6;
+  --color-ocean: #0284c7;
+  --color-sand: #fef3c7;
+  --color-seafoam: #67e8f9;
+  --color-navy: #475569;
+  --color-cream: #fefce8;
+  --color-text-primary: #111827;
+  --color-text-secondary: #374151;
 }
 
 * {
@@ -20,6 +24,12 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-sand) 25%, var(--color-seafoam) 75%, var(--color-ocean) 100%);
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 
 a {

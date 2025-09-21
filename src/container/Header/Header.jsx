@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { SubHeading } from '../../components';
+import { SubHeading, GlassCard } from '../../components';
 import { images } from '../../constants';
 import './Header.css';
 
 const Header = () => (
-  <div className="app__header app__wrapper section__padding" id="home">
+  <div className="app__header app__section app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
       <SubHeading title="Sabores del mar en Claromeco" />
       <h1 className="app__header-h1">Resto Bar La Chicha</h1>
@@ -14,7 +14,9 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.welcome} alt="header_img" />
+      <GlassCard intensity={12}>
+        <img src={images.welcome} alt="header_img" />
+      </GlassCard>
     </div>
   </div>
 );
