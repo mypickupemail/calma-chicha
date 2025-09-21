@@ -36,6 +36,11 @@
     backdrop-filter: blur(10px);
 }
 
+.app__header .app__wrapper_info * {
+    color: var(--color-white) !important;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
 .app__header-img {
     position: relative;
 }
