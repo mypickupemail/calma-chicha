@@ -17,7 +17,7 @@ const useMouseFollow3D = (intensity = 10) => {
     const rotateX = ((y - centerY) / centerY) * -intensity;
     const rotateY = ((x - centerX) / centerX) * intensity;
 
-    setTransform(`perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`);
+    setTransform(`perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`);
   }, [intensity]);
 
   const handleMouseLeave = useCallback(() => {
@@ -25,7 +25,7 @@ const useMouseFollow3D = (intensity = 10) => {
   }, []);
 
   const handleMouseEnter = useCallback(() => {
-    setTransform('perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.02)');
+    setTransform('perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.01)');
   }, []);
 
   return {

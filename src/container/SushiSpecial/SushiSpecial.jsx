@@ -47,8 +47,8 @@ const SushiSpecial = () => (
     </div>
 
     <div className="app__sushi-special-image">
-      <GlassCard intensity={15}>
-        <img src={images.chef} alt="calma_sushi" />
+      <GlassCard intensity={6}>
+        <img src={images.delfi} alt="chef_delfi_sushi" />
       </GlassCard>
     </div>
   </div>

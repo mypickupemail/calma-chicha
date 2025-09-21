@@ -24,7 +24,9 @@ const Gallery = () => {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Galería de Fotos</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Descubrí los momentos más especiales de Resto Bar La Chicha. Desde nuestros platos más deliciosos hasta el ambiente cálido que nos caracteriza en el corazón de Claromeco.</p>
-        <button type="button" className="custom__button">Ver Más</button>
+        <a href="https://www.instagram.com/la.chicha.restobar/" target="_blank" rel="noopener noreferrer">
+          <button type="button" className="custom__button">Ver en Instagram</button>
+        </a>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

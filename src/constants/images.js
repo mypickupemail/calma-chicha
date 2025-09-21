@@ -20,6 +20,9 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import delfi from '../assets/chicha/delfi.jpg';
+import proof from '../assets/chicha/proof.jpg';
+import video from '../assets/chicha/video.mp4';
 
 export default {
   bg,
@@ -44,4 +47,7 @@ export default {
   sign,
   quote,
   gericht,
+  delfi,
+  proof,
+  video,
 };

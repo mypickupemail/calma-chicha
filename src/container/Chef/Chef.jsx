@@ -7,8 +7,8 @@ import './Chef.css';
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <GlassCard intensity={10}>
-        <img src={images.chef} alt="chef_image" />
+      <GlassCard intensity={4}>
+        <img src={images.delfi} alt="chef_delfi" />
       </GlassCard>
     </div>
     <div className="app__wrapper_info">

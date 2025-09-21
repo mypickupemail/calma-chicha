@@ -14,7 +14,7 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <GlassCard intensity={12}>
+      <GlassCard intensity={5}>
         <img src={images.welcome} alt="header_img" />
       </GlassCard>
     </div>

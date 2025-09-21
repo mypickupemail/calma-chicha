@@ -23,9 +23,11 @@ const Footer = () => (
         <p className="p__opensans">&quot;La mejor forma de crear recuerdos es compartiendo una buena mesa en familia.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
+          <a href="https://www.instagram.com/la.chicha.restobar/" target="_blank" rel="noopener noreferrer">
+            <FiInstagram />
+          </a>
           <FiFacebook />
           <FiTwitter />
-          <FiInstagram />
         </div>
       </div>
 

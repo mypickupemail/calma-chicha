@@ -58,19 +58,19 @@ const drinks = [
 
 const awards = [
   {
-    imgUrl: images.award02,
+    imgUrl: images.proof,
+    title: 'Reconocimiento en Medios',
+    subtitle: 'Cobertura en medios locales por la apertura de La Chicha en Claromeco.',
+  },
+  {
+    imgUrl: images.award01,
     title: 'Chef Galardonada',
     subtitle: 'Reconocimiento por excelencia culinaria en competencias nacionales.',
   },
   {
-    imgUrl: images.award01,
+    imgUrl: images.award05,
     title: 'Evento Gastronómico',
     subtitle: 'Participación destacada en festivales gastronómicos de prestigio.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'Tradición Familiar',
-    subtitle: 'Preservando recetas tradicionales con técnicas innovadoras.',
   },
   {
     imgUrl: images.award03,
