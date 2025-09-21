@@ -27,8 +27,12 @@
 }
 
 body {
-  background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-sand) 25%, var(--color-seafoam) 75%, var(--color-ocean) 100%);
+  background-color: var(--color-black);
   min-height: 100vh;
+}
+
+.gradient-background {
+  background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-sand) 25%, var(--color-seafoam) 75%, var(--color-ocean) 100%);
   background-attachment: fixed;
 }
 

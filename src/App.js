@@ -8,15 +8,17 @@ const App = () => (
   <div>
     <Navbar />
     <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <SushiSpecial />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />
+    <div className="gradient-background">
+      <AboutUs />
+      <SpecialMenu />
+      <SushiSpecial />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+      <Footer />
+    </div>
   </div>
 );
 
