@@ -2,8 +2,8 @@
 # Video compression script for web optimization
 # Requires ffmpeg: brew install ffmpeg (on Mac)
 
-INPUT="src/assets/meal.mp4"
-OUTPUT="src/assets/meal-optimized.mp4"
+INPUT="src/assets/chicha/video.mp4"
+OUTPUT="src/assets/chicha/video-optimized.mp4"
 
 echo "Compressing video for web..."
 echo "Input: $INPUT ($(du -h "$INPUT" | cut -f1))"
@@ -24,6 +24,6 @@ echo "Compression complete!"
 echo "Output: $OUTPUT ($(du -h "$OUTPUT" | cut -f1))"
 echo ""
 echo "To use the optimized video:"
-echo "1. Backup original: mv src/assets/meal.mp4 src/assets/meal-original.mp4"
-echo "2. Replace: mv src/assets/meal-optimized.mp4 src/assets/meal.mp4"
+echo "1. Backup original: mv src/assets/chicha/video.mp4 src/assets/chicha/video-original.mp4"
+echo "2. Replace: mv src/assets/chicha/video-optimized.mp4 src/assets/chicha/video.mp4"
 
