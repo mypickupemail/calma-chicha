@@ -216,7 +216,7 @@
 
 @media screen and (max-width: 650px) {
     .app__header {
-        padding-top: 6rem !important;
+        padding-top: 4rem !important;
     }
 
     .app__header-h1 {
@@ -235,7 +235,7 @@
 
 @media screen and (max-width: 450px) {
     .app__header {
-        padding-top: 7rem !important;
+        padding-top: 5rem !important;
     }
 
     .app__header-h1 {
