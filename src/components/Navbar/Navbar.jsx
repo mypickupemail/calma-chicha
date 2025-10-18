@@ -1,3 +1,4 @@
+// src/components/Navbar/Navbar.jsx
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
