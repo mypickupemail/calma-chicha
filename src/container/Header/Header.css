@@ -219,6 +219,14 @@
         font-size: 70px;
         line-height: 87px;
     }
+
+    .app__header .app__wrapper_info {
+        margin-top: 2rem;
+    }
+
+    .app__header .app__wrapper_img {
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -229,6 +237,11 @@
 
     .app__header .app__wrapper_info {
         padding: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .app__header .app__wrapper_img {
+        margin-top: 2rem;
     }
 
     .contact-title {
