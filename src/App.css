@@ -144,14 +144,16 @@
 @media screen and (max-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
+    min-height: auto;
+    padding-top: 2rem;
   }
 
   .app__wrapper_img {
-    margin: 5rem 0 0 0;
+    margin: 3rem 0 0 0;
   }
 
   .app__wrapper_img-reverse {
-    margin: 0 0 5rem 0;
+    margin: 0 0 3rem 0;
   }
 
   .app__wrapper_img img {
@@ -167,9 +169,17 @@
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 3rem 1rem;
   }
-  
+
+  .app__bg {
+    margin: 1.5rem 1rem;
+  }
+
+  .app__section {
+    margin: 2rem 1rem;
+  }
+
   .p__cormorant {
     font-size: 21px;
   }
@@ -180,6 +190,18 @@
 }
 
 @media screen and (max-width: 450px) {
+  .section__padding {
+    padding: 2rem 0.75rem;
+  }
+
+  .app__bg {
+    margin: 1rem 0.5rem;
+  }
+
+  .app__section {
+    margin: 1.5rem 0.5rem;
+  }
+
   .p__opensans {
     font-size: 12px;
   }

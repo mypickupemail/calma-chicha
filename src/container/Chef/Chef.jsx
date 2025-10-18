@@ -7,7 +7,7 @@ import './Chef.css';
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <GlassCard intensity={4}>
+      <GlassCard intensity={4} className="tight">
         <img src={images.delfi} alt="chef_delfi" />
       </GlassCard>
     </div>

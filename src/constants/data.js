@@ -1,4 +1,4 @@
-import images from './images';
+// import images from './images';
 
 const mainDishes = [
   {
@@ -58,22 +58,22 @@ const drinks = [
 
 const awards = [
   {
-    imgUrl: images.proof,
+    emoji: '📰',
     title: 'Reconocimiento en Medios',
     subtitle: 'Cobertura en medios locales por la apertura de La Chicha en Claromeco.',
   },
   {
-    imgUrl: images.award01,
+    emoji: '👩‍🍳',
     title: 'Chef Galardonada',
     subtitle: 'Reconocimiento por excelencia culinaria en competencias nacionales.',
   },
   {
-    imgUrl: images.award05,
+    emoji: '🎪',
     title: 'Evento Gastronómico',
     subtitle: 'Participación destacada en festivales gastronómicos de prestigio.',
   },
   {
-    imgUrl: images.award03,
+    emoji: '🌊',
     title: 'Nuevo Talento',
     subtitle: 'Reconocimiento como chef emergente en la región costera.',
   },

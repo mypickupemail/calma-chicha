@@ -168,11 +168,15 @@
 
 @media screen and (max-width: 650px) {
   .app__sushi-special {
-    padding: 4rem 2rem;
+    padding: 3rem 1rem;
   }
 
   .app__sushi-special-info .p__opensans {
     font-size: 16px;
+  }
+
+  .app__sushi-special-feature {
+    padding: 1rem;
   }
 
   .app__sushi-special-feature h3 {
@@ -181,5 +185,28 @@
 
   .app__sushi-special-feature .p__opensans {
     font-size: 13px;
+  }
+
+  .app__sushi-special-schedule {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__sushi-special {
+    padding: 2rem 0.75rem;
+  }
+
+  .app__sushi-special-features {
+    gap: 1rem;
+  }
+
+  .app__sushi-special-feature {
+    padding: 0.8rem;
+  }
+
+  .app__sushi-special-schedule {
+    padding: 1.2rem;
+    margin: 1.5rem 0;
   }
 }

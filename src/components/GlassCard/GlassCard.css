@@ -24,6 +24,17 @@
     margin: 0 auto;
 }
 
+.glass-card-3d.tight {
+    width: auto;
+    display: inline-flex;
+    padding: 0.25rem;
+}
+
+.glass-card-3d.tight img {
+    width: auto;
+    max-width: 100%;
+}
+
 .glass-card-3d::before {
     content: '';
     position: absolute;

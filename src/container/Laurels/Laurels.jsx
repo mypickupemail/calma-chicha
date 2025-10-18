@@ -4,11 +4,13 @@ import { SubHeading, GlassCard } from '../../components';
 import { images, data } from '../../constants';
 import './Laurels.css';
 
-const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
+const AwardCard = ({ award: { emoji, title, subtitle } }) => (
   <div className="app__laurels_awards-card">
-    <img src={imgUrl} alt="awards" />
+    <div className="app__laurels_awards-emoji" aria-hidden>
+      {emoji}
+    </div>
     <div className="app__laurels_awards-card_content">
-      <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>
+      <p className="p__cormorant" style={{ color: 'var(--color-golden)' }}>{title}</p>
       <p className="p__opensans">{subtitle}</p>
     </div>
   </div>
@@ -27,7 +29,7 @@ const Laurels = () => (
 
     <div className="app__wrapper_img app__laurels_proof-container">
       {/* <div className="app__laurels_proof-badge">C</div> */}
-      <GlassCard intensity={4}>
+      <GlassCard intensity={4} className="tight">
         <img src={images.proof} alt="calma_chicha_recognition" className="app__laurels_proof-img" />
       </GlassCard>
     </div>

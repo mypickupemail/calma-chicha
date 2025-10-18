@@ -205,6 +205,10 @@
         line-height: 70px;
     }
 
+    .app__header .app__wrapper_info {
+        padding: 1.5rem;
+    }
+
     .contact-title {
         font-size: 1.5rem;
     }
