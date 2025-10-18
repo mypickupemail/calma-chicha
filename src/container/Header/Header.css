@@ -215,13 +215,17 @@
 }
 
 @media screen and (max-width: 650px) {
+    .app__header {
+        padding-top: 6rem !important;
+    }
+
     .app__header-h1 {
         font-size: 70px;
         line-height: 87px;
     }
 
     .app__header .app__wrapper_info {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .app__header .app__wrapper_img {
@@ -230,6 +234,10 @@
 }
 
 @media screen and (max-width: 450px) {
+    .app__header {
+        padding-top: 7rem !important;
+    }
+
     .app__header-h1 {
         font-size: 50px;
         line-height: 70px;
@@ -237,7 +245,7 @@
 
     .app__header .app__wrapper_info {
         padding: 1.5rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .app__header .app__wrapper_img {
