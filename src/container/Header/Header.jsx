@@ -31,35 +31,35 @@ const Header = () => {
       </div>
 
       <div className="app__wrapper_img">
-      <GlassCard intensity={3}>
-        <div className="app__header-contact">
-          <h3 className="contact-title">Reservás & Pedidos</h3>
+        <GlassCard intensity={3}>
+          <div className="app__header-contact">
+            <h3 className="contact-title">Reservás & Pedidos</h3>
 
-          <div className="contact-item">
-            <FiPhone className="contact-icon" />
-            <div>
-              <p className="contact-label">Llamanos</p>
-              <a href="tel:+542246XXX-XXX" className="contact-link">+54 2246 XXX-XXX</a>
+            <div className="contact-item">
+              <FiPhone className="contact-icon" />
+              <div>
+                <p className="contact-label">Llamanos</p>
+                <a href="tel:+542246XXX-XXX" className="contact-link">+54 2246 XXX-XXX</a>
+              </div>
+            </div>
+
+            <div className="contact-item">
+              <FiInstagram className="contact-icon" />
+              <div>
+                <p className="contact-label">Seguinos</p>
+                <a href="https://www.instagram.com/la.chicha.restobar/" target="_blank" rel="noopener noreferrer" className="contact-link">@la.chicha.restobar</a>
+              </div>
+            </div>
+
+            <div className="contact-item">
+              <FiMapPin className="contact-icon" />
+              <div>
+                <p className="contact-label">Ubicación</p>
+                <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="contact-link">Claromeco, Buenos Aires</a>
+              </div>
             </div>
           </div>
-
-          <div className="contact-item">
-            <FiInstagram className="contact-icon" />
-            <div>
-              <p className="contact-label">Seguinos</p>
-              <a href="https://www.instagram.com/la.chicha.restobar/" target="_blank" rel="noopener noreferrer" className="contact-link">@la.chicha.restobar</a>
-            </div>
-          </div>
-
-          <div className="contact-item">
-            <FiMapPin className="contact-icon" />
-            <div>
-              <p className="contact-label">Ubicación</p>
-              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="contact-link">Claromeco, Buenos Aires</a>
-            </div>
-          </div>
-        </div>
-      </GlassCard>
+        </GlassCard>
       </div>
     </div>
   );
