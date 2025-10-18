@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiPhone, FiInstagram, FiMapPin } from 'react-icons/fi';
 
 import { SubHeading, GlassCard } from '../../components';
 import { meal } from '../../constants';
 import './Header.css';
 
-const Header = () => (
-  <div className="app__header app__wrapper section__padding" id="home">
-    <video className="app__header-video" autoPlay loop muted>
-      <source src={meal} type="video/mp4" />
-    </video>
+const Header = () => {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  return (
+    <div className="app__header app__wrapper section__padding" id="home">
+      <div className={`app__header-video-bg ${videoLoaded ? 'loaded' : ''}`} />
+      <video
+        className={`app__header-video ${videoLoaded ? 'video-loaded' : ''}`}
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+        onCanPlayThrough={() => setVideoLoaded(true)}
+      >
+        <source src={meal} type="video/mp4" />
+      </video>
 
     <div className="app__wrapper_info">
       <SubHeading title="Sabores del mar en Claromeco" />
@@ -49,7 +61,8 @@ const Header = () => (
         </div>
       </GlassCard>
     </div>
-  </div>
-);
+    </div>
+  );
+};
 
 export default Header;

@@ -3,6 +3,22 @@
     overflow: hidden;
 }
 
+.app__header-video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background: linear-gradient(135deg, #1a2a3a 0%, #0d1821 50%, #1a2a3a 100%);
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.app__header-video-bg.loaded {
+    opacity: 0;
+}
+
 .app__header-video {
     position: absolute;
     top: 0;
@@ -11,6 +27,12 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.app__header-video.video-loaded {
+    opacity: 1;
 }
 
 .app__header-h1 {
