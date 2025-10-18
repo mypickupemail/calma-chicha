@@ -23,6 +23,7 @@ import gericht from '../assets/gericht.png';
 import delfi from '../assets/chicha/delfi.jpg';
 import proof from '../assets/chicha/proof.jpg';
 import video from '../assets/chicha/video.mp4';
+import chichaLogo from '../assets/chicha/logo.jpg';
 
 export default {
   bg,
@@ -50,4 +51,5 @@ export default {
   delfi,
   proof,
   video,
+  chichaLogo,
 };

@@ -4,6 +4,12 @@
     background: var(--color-black);
 }
 
+.app__newsletter .p__opensans,
+.app__newsletter .p__cormorant,
+.app__newsletter .headtext__cormorant {
+    color: var(--color-white);
+}
+
 .app__newsletter-heading {
     text-align: center;
 }

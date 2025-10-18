@@ -34,9 +34,56 @@
     margin-left: 1rem;
 }
 
+.app__laurels_proof-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__laurels_proof-container .glass-card-3d {
+    width: auto;
+    max-width: 100%;
+}
+
+.app__laurels_proof-badge {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--color-golden), var(--color-ocean));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-base);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-white);
+    z-index: 10;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 3px solid var(--color-white);
+}
+
+.app__laurels_proof-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 450px) {
     .app__laurels_awards-card {
         min-width: 100%;
         margin: 1rem 0;
+    }
+
+    .app__laurels_proof-badge {
+        width: 60px;
+        height: 60px;
+        font-size: 36px;
+        top: -15px;
+        right: -15px;
     }
 }

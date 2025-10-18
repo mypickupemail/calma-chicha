@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SubHeading } from '../../components';
+import { SubHeading, GlassCard } from '../../components';
 import { images, data } from '../../constants';
 import './Laurels.css';
 
@@ -25,8 +25,11 @@ const Laurels = () => (
       </div>
     </div>
 
-    <div className="app__wrapper_img">
-      <img src={images.laurels} alt="laurels_img" />
+    <div className="app__wrapper_img app__laurels_proof-container">
+      {/* <div className="app__laurels_proof-badge">C</div> */}
+      <GlassCard intensity={4}>
+        <img src={images.proof} alt="calma_chicha_recognition" className="app__laurels_proof-img" />
+      </GlassCard>
     </div>
   </div>
 );

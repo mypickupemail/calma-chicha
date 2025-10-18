@@ -19,7 +19,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="footer_logo" />
+        <img src={images.chichaLogo} alt="footer_logo" />
         <p className="p__opensans">&quot;La mejor forma de crear recuerdos es compartiendo una buena mesa en familia.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
