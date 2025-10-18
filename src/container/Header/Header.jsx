@@ -23,14 +23,14 @@ const Header = () => {
         <source src={meal} type="video/mp4" />
       </video>
 
-    <div className="app__wrapper_info">
-      <SubHeading title="Sabores del mar en Claromeco" />
-      <h1 className="app__header-h1">Resto Bar La Chicha</h1>
-      <p className="p__opensans" style={{ margin: '2rem 0' }}>Bienvenidos a Calma Chicha en el corazón costero de Claromeco. Disfrutá de pescados frescos del mar, mariscos y comida casera familiar. Los miércoles, sumate a nuestra experiencia única de Calma Sushi con productos locales.</p>
-      <button type="button" className="custom__button">Ver Menú</button>
-    </div>
+      <div className="app__wrapper_info">
+        <SubHeading title="Sabores del mar en Claromeco" />
+        <h1 className="app__header-h1">Resto Bar La Chicha</h1>
+        <p className="p__opensans" style={{ margin: '2rem 0' }}>Bienvenidos a Calma Chicha en el corazón costero de Claromeco. Disfrutá de pescados frescos del mar, mariscos y comida casera familiar. Los miércoles, sumate a nuestra experiencia única de Calma Sushi con productos locales.</p>
+        <button type="button" className="custom__button">Ver Menú</button>
+      </div>
 
-    <div className="app__wrapper_img">
+      <div className="app__wrapper_img">
       <GlassCard intensity={3}>
         <div className="app__header-contact">
           <h3 className="contact-title">Reservás & Pedidos</h3>
@@ -60,7 +60,7 @@ const Header = () => {
           </div>
         </div>
       </GlassCard>
-    </div>
+      </div>
     </div>
   );
 };

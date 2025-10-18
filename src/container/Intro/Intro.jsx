@@ -21,7 +21,7 @@ const Intro = () => {
       },
       {
         rootMargin: '200px', // Start loading 200px before visible
-      }
+      },
     );
 
     if (containerRef.current) {
